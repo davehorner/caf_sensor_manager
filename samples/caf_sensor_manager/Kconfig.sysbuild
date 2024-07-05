@@ -15,3 +15,4 @@ config REMOTE_BOARD
 	default "nrf5340dk/nrf5340/cpunet" if BOARD_NRF5340DK_NRF5340_CPUAPP
 	default "nrf5340dk/nrf5340/cpunet" if BOARD_NRF5340DK_NRF5340_CPUAPP_NS
 	default "nrf54h20dk/nrf54h20/cpuppr" if BOARD_NRF54H20DK_NRF54H20_CPUAPP
+	default "thingy53/nrf5340/cpunet" if BOARD_THINGY53_NRF5340_CPUAPP
